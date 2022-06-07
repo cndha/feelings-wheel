@@ -1,13 +1,14 @@
-import React from 'react';
-import './App.css';
-import FeelingsChart from './components/FeelingsChart'
+import "./App.css";
+import SunburstChart from "./components/SecondaryEmotions";
+import PrimaryEmotions from "./components/PrimaryEmotions";
 
-function App() {
+const App = () => {
   return (
     <>
-    <FeelingsChart/>
+      <SunburstChart />
+      <PrimaryEmotions />
     </>
   );
-}
+};
 
 export default App;
